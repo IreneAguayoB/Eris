@@ -38,11 +38,6 @@ s_table = dash_table.DataTable(df_seoul.to_dict('records'),
                                   'backgroundColor': light_blue,
                                   'color': 'black','fontWeight': 'bold'})
 
-# set app layout
-app.layout = html.Div([html.H1('Seoul', style={'textAlign': 'center', 'color': light_blue}),
-                       html.Div(s_table)])
-#if __name__ == '__main__':
-#     app.run_server(port=9999)
 
 # table Busan definition
 bu_table = dash_table.DataTable(df_busan.to_dict('records'),
@@ -52,11 +47,7 @@ bu_table = dash_table.DataTable(df_busan.to_dict('records'),
                                   'backgroundColor': light_green,
                                   'color': 'black','fontWeight': 'bold'})
 
-# set app layout
-app.layout = html.Div([html.H1('Busan', style={'textAlign': 'center', 'color': light_green}),
-                       html.Div(bu_table)])
-#if __name__ == '__main__':
-#     app.run_server(port=9998)
+
 
 # table Berlin definition
 be_table = dash_table.DataTable(df_berlin.to_dict('records'),
@@ -67,8 +58,6 @@ be_table = dash_table.DataTable(df_berlin.to_dict('records'),
                                   'color': 'black','fontWeight': 'bold'})
 
 # set app layout
-app.layout = html.Div([html.H1('Berlin', style={'textAlign': 'center', 'color': light_purple}),
-                       html.Div(be_table)])
 
 
 ################################## GRAPHS

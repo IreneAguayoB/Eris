@@ -1,0 +1,22 @@
+day_of_week,city,rainy_days,snowy_days,sunny_day
+"tuesday  ",Berlin,34,2,3
+"friday   ",Berlin,32,4,3
+"monday   ",Berlin,31,2,6
+"sunday   ",Berlin,29,3,7
+wednesday,Busan,28,0,8
+wednesday,Berlin,28,4,4
+"thursday ",Berlin,28,2,5
+"tuesday  ",Busan,27,1,9
+"sunday   ",Busan,26,0,7
+"thursday ",Busan,26,0,12
+"thursday ",Seoul,25,1,9
+"saturday ",Busan,24,0,12
+"saturday ",Berlin,23,5,5
+"monday   ",Busan,23,1,14
+wednesday,Seoul,23,4,6
+"monday   ",Seoul,22,3,11
+"tuesday  ",Seoul,22,5,12
+"friday   ",Busan,21,0,15
+"saturday ",Seoul,17,7,10
+"sunday   ",Seoul,16,4,9
+"friday   ",Seoul,15,2,15

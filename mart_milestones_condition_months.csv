@@ -1,0 +1,37 @@
+month_of_year,number_of_month,city,avg_temp,avg_max_temp,avg_min_temp,avg_humidity,avg_sun_hours,rainy_days,snowy_days,sunny_day,most_freq_condition
+"january  ",1,Berlin,1.8,3.71,-0.22,79.23,8.27516129032258,10,8,4,Sunny
+"february ",2,Berlin,6.95,9.55,4.82,80.76,9.91551724137931,22,3,1,Patchy rain possible
+"march    ",3,Berlin,8.29,12.09,4.95,71.81,11.929032258064517,15,0,2,Light rain shower
+"april    ",4,Berlin,11.57,15.78,7.68,70.31,13.966896551724139,22,0,2,Patchy rain possible
+"may      ",5,Berlin,13.8,18.97,8.58,62.03,15.759032258064517,7,0,5,Overcast
+"june     ",6,Berlin,19.6,24.75,14.25,57.53,16.749666666666666,17,0,3,Overcast
+"july     ",7,Berlin,20.5,25.51,15.67,55.45,16.27516129032258,23,0,3,Patchy rain possible
+"august   ",8,Berlin,20.28,24.63,16.53,64.61,14.654516129032258,24,0,2,Patchy rain possible
+september,9,Berlin,20.21,25.36,15.59,55.67,12.677333333333333,6,0,10,Sunny
+"october  ",10,Berlin,12.65,15.83,9.99,72.45,10.620967741935484,24,0,1,Patchy rain possible
+"november ",11,Berlin,6.13,8.18,4.03,78.0,8.767333333333333,18,5,0,Patchy rain possible
+"december ",12,Berlin,3.9,5.41,2.1,85.42,7.756774193548387,17,6,0,Overcast
+"january  ",1,Busan,5.23,7.89,2.92,59.1,10.086774193548386,8,0,12,Sunny
+"february ",2,Busan,7.7,9.86,5.63,69.38,10.914827586206897,21,0,2,Patchy rain possible
+"march    ",3,Busan,9.25,11.85,6.69,60.03,11.986451612903226,13,0,5,Patchy rain possible
+"april    ",4,Busan,14.72,17.47,12.11,68.69,13.074827586206897,13,0,6,Partly cloudy
+"may      ",5,Busan,17.29,20.25,14.63,75.06,13.999032258064515,17,0,6,Overcast
+"june     ",6,Busan,21.31,24.19,18.91,81.2,14.482,19,0,5,Moderate or heavy rain shower
+"july     ",7,Busan,24.56,27.28,22.7,88.39,14.261935483870968,25,0,3,Moderate or heavy rain shower
+"august   ",8,Busan,26.83,29.02,24.96,81.06,13.45741935483871,22,0,5,Patchy rain possible
+september,9,Busan,23.9,26.08,21.99,77.93,12.407,13,0,2,Partly cloudy
+"october  ",10,Busan,17.83,20.82,15.07,57.23,11.318064516129033,6,0,8,Patchy rain possible
+"november ",11,Busan,11.54,14.5,8.61,58.53,10.351333333333333,9,0,16,Sunny
+"december ",12,Busan,6.74,9.23,4.49,60.61,9.842903225806452,9,2,7,Overcast
+"january  ",1,Seoul,-0.77,1.61,-2.85,57.0,9.896451612903226,4,6,7,Sunny
+"february ",2,Seoul,3.71,6.78,1.02,61.59,10.8,6,8,2,Overcast
+"march    ",3,Seoul,6.73,10.51,3.6,45.48,11.977741935483872,10,1,7,Sunny
+"april    ",4,Seoul,14.7,19.18,10.82,47.14,13.172413793103448,8,0,7,Partly cloudy
+"may      ",5,Seoul,18.7,24.17,13.8,52.29,14.184516129032257,12,0,11,Sunny
+"june     ",6,Seoul,22.81,27.84,18.66,63.0,14.712666666666667,18,0,6,Patchy rain possible
+"july     ",7,Seoul,25.89,29.46,22.96,75.45,14.469677419354838,23,0,4,Moderate or heavy rain shower
+"august   ",8,Seoul,26.12,29.84,23.17,74.23,13.589677419354839,23,0,3,Patchy rain possible
+september,9,Seoul,23.13,26.83,20.1,67.43,12.441,11,0,5,Partly cloudy
+"october  ",10,Seoul,16.71,20.35,13.51,51.03,11.24516129032258,8,0,8,Partly cloudy
+"november ",11,Seoul,7.38,10.6,4.47,50.83,10.185,12,3,9,Sunny
+"december ",12,Seoul,1.13,3.7,-0.97,64.16,9.622903225806452,5,8,3,Overcast

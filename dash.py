@@ -26,7 +26,8 @@ df_busan = df_month[df_month['city']=='Busan']
 df_berlin = df_month[df_month['city']=='Berlin']
 
 app =dash.Dash(external_stylesheets=[dbc.themes.DARKLY])
-
+# add server
+server = app.server
 ##################### TABLES
 
 # table Seoul definition

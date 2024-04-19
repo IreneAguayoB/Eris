@@ -119,13 +119,8 @@ graph5 = dcc.Graph(figure=fig5)
 # just adding the multi = True parameter for our dropdown
 
 graph = dcc.Graph()
-city =df_month['city'].unique().tolist() 
+#city =df_month['city'].unique().tolist() 
 
-app =dash.Dash(external_stylesheets=[dbc.themes.DARKLY])
-
-dropdown = dcc.Dropdown(['Seoul', 'Busan', 'Berlin'], value=['Seoul', 'Busan', 'Berlin'], 
-                        clearable=False, multi=True, style ={'paddingLeft': '30px', 
-                                                             "backgroundColor": "#222222", "color": "#222222"})
 
 app.layout = html.Div([html.H1('Can I convince my husband to move to South Korea?', style={'textAlign': 'center', 'color': green}), 
                        html.Div(html.P("Using the Weather API data we compare the climate conditions of Seoul, Busan and Berlin"), 

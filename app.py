@@ -20,6 +20,7 @@ light_blue ='#AED6F1 '
 green= '#1ABC9C'
 light_green ='#ABEBC6'
 orange='#F39C12'
+grey_text = '#D7DBDD'
  # spicific dfs for city
 df_seoul = df_month[df_month['city']=='Seoul']
 df_busan = df_month[df_month['city']=='Busan']
@@ -123,19 +124,20 @@ graph = dcc.Graph()
 
 
 app.layout = html.Div([html.H1('Can I convince my husband to move to South Korea?', style={'textAlign': 'center', 'color': green}), 
-                       html.Div(html.P("Using the Weather API data we compare the climate conditions of Seoul, Busan and Berlin"), 
+                       html.Div(html.H4("Using the Weather API data we compare the climate conditions of Seoul, Busan and Berlin"),
+                                html.P("According to the climate conditions which city would be better to live in?"), 
                                 style={'marginLeft': 50, 'marginRight': 25}),
 
 
                        html.Div([html.Div([html.H1('Seoul', style={'textAlign': 'center', 'color': light_blue}),html.Div(s_table)]),
-                                html.Div([html.H1('Busan', style={'textAlign': 'center', 'color': light_blue}),html.Div(bu_table)]),
-                                html.Div([html.H1('Berlin', style={'textAlign': 'center', 'color': light_blue}),html.Div(be_table)]),
+                                html.Div([html.H1('Busan', style={'textAlign': 'center', 'color': light_green}),html.Div(bu_table)]),
+                                html.Div([html.H1('Berlin', style={'textAlign': 'center', 'color': light_purple}),html.Div(be_table)]),
                                  #dropdown, 
-                                 html.Div([html.H1('Average temperature per month', style={'textAlign': 'center', 'color': light_blue}),html.Div(graph1)]),
-                                 html.Div([html.H1('Average humidity', style={'textAlign': 'center', 'color': light_blue}),html.Div(graph2)]),
-                                 html.Div([html.H1('Rainy days', style={'textAlign': 'center', 'color': light_blue}),html.Div(graph3)]),
-                                 html.Div([html.H1('Total rainy and sunny days per city', style={'textAlign': 'center', 'color': light_blue}),html.Div(graph4)]),
-                                 html.Div([html.H1('Tropical nights', style={'textAlign': 'center', 'color': light_blue}),html.Div(graph5)])
+                                 html.Div([html.H2('Average temperature per month', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph1)]),
+                                 html.Div([html.H2('Average humidity', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph2)]),
+                                 html.Div([html.H2('Rainy days', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph3)]),
+                                 html.Div([html.H2('Total rainy and sunny days per city', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph4)]),
+                                 html.Div([html.H('Tropical nights', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph5)])
                                 ])
                       ])
 #@callback(

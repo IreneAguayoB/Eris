@@ -124,8 +124,8 @@ graph = dcc.Graph()
 
 
 app.layout = html.Div([html.H1('Can I convince my husband to move to South Korea?', style={'textAlign': 'center', 'color': green}), 
-                       html.Div(html.H4("Using the Weather API data we compare the climate conditions of Seoul, Busan and Berlin"),
-                                html.P("According to the climate conditions which city would be better to live in?"), 
+                       html.Div([html.H4("Using the Weather API data we compare the climate conditions of Seoul, Busan and Berlin"),
+                                html.P("According to the climate conditions which city would be better to live in?")], 
                                 style={'marginLeft': 50, 'marginRight': 25}),
 
 
@@ -137,7 +137,7 @@ app.layout = html.Div([html.H1('Can I convince my husband to move to South Korea
                                  html.Div([html.H2('Average humidity', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph2)]),
                                  html.Div([html.H2('Rainy days', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph3)]),
                                  html.Div([html.H2('Total rainy and sunny days per city', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph4)]),
-                                 html.Div([html.H('Tropical nights', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph5)])
+                                 html.Div([html.H2('Tropical nights', style={'textAlign': 'center', 'color': grey_text}),html.Div(graph5)])
                                 ])
                       ])
 #@callback(
